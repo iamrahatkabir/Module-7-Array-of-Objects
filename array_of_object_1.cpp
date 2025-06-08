@@ -43,8 +43,9 @@ int main()
     for(int i = 0; i<n; i++)
     {
         cin.ignore(); //Ignoring the enter of n;
-        getline(cin, a[i].name);
 
+        //Takes input for Name, Roll, Marks;
+        getline(cin, a[i].name);
         cin >> a[i].roll >> a[i].marks;
 
         // cin >> a[i].name >> a[i].roll >> a[i].marks; Normal Input;
